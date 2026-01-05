@@ -9,7 +9,7 @@ pipeline {
    }
     stage('completion'){
 	steps{
-	echo 'completed'
+	echo 'completejd'
 	}
 }
 }
