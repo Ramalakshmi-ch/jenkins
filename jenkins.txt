@@ -1,0 +1,16 @@
+pipeline {  
+  agent any
+  stages{
+   
+    stage('Run') { 
+	steps{
+       bat 'cscript //nologo uft.vbs'
+    }
+   }
+    stage('completion'){
+	steps{
+	echo 'completed'
+	}
+}
+}
+}
